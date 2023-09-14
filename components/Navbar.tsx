@@ -12,6 +12,7 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState('#1f2937');
 
   const handleMenuClick = () => {
+    console.log('clicked')
     setShowSideMenu((prev)=>!prev);
   }
   const hideMenu = () => {
@@ -41,7 +42,7 @@ const Navbar = () => {
             </Link>
           </ul>
           <div className='md:hidden' onClick={handleMenuClick}>
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25}/>
           </div>
         </div>
       </div>
