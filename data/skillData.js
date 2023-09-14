@@ -1,6 +1,6 @@
 import htmlImg from '../public/images/html.png'
 import cssImg from '../public/images/css.png'
-import jsImg from '../public/images/Javascript.png'
+import jsImg from '../public/images/javascript.png'
 import nodeImg from '../public/images/node.png'
 import tsImg from '../public/images/ts.png'
 import reactImg from '../public/images/react.png'
