@@ -24,7 +24,7 @@ const ExperienceCard = () => {
             Full Stack Engineer (at Invest with Tribe){" "}
           </div>
           <div className="text-lg font-bold text-[#273c75] capitalize col-span-2 md:col-span-1">
-            dec 2021 - aug 2023
+            dec 2021 - oct 2023
           </div>
         </div>
         <div className=" text-start p-3 text-[#273c75] font-semibold">
@@ -35,25 +35,34 @@ const ExperienceCard = () => {
               bar, pagination, and sorting functionalities
             </li>
             <li className="text-md">
+              Website Analytics Integration - Implemented Google Analytics and
+              Google Tag Manager to track user behavior on the company website.
+              - Configured custom events and goals to gather specific insights
+              into user interactions. - Collaborated with the marketing team to
+              set up conversion tracking for key performance indicators. -
+              Analyzed data trends and provided actionable insights to improve
+              user experience and website performance.
+            </li>
+            <li className="text-md">
               Implemented user-friendly pop-up forms to enhance user engagement
               and interaction
             </li>
             <li className="text-md">
-              Innovatively incorporated a Live alert feature for investors and
-              experts, providing real-time market updates and enhancing the
-              site’s value proposition.
+              Developed and implemented a cutting-edge real-time alert system by
+              harnessing the capabilities of Amazon Simple Queue Service (SQS)
+              and seamlessly integrating with Twilio, enabling immediate
+              notifications for critical events. This innovative solution
+              garnered enthusiastic acclaim from customers and played a pivotal
+              role in enhancing their experience.
             </li>
             <li className="text-md">
-              Managed integration and optimization of Google Analytics and
-              Google Tag Manager.
+              Admin Dashboard for User Management - Developed using React.js and
+              Node.js. - Implemented user authentication, data visualization,
+              and feature to perform CRUD operation
             </li>
             <li className="text-md">
               Conducted code reviews, providing constructive feedback and
               improving overall code quality within the team.
-            </li>
-            <li className="text-md">
-              dentified and resolved critical front-end and back-end bugs to
-              ensure smooth user experiences.
             </li>
           </ul>
 
